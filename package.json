@@ -1,0 +1,42 @@
+{
+  "name": "stylelint-config-woda",
+  "version": "1.0.0",
+  "description": "Woda's stylelint config",
+  "main": "stylelint-config-woda.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wwwoda/stylelint-config-woda.git"
+  },
+  "keywords": [
+    "config",
+    "css",
+    "sass",
+    "scss",
+    "less",
+    "styleguide",
+    "stylelint",
+    "woda"
+  ],
+  "authors": [
+    {
+      "name": "Woda",
+      "email": "hello@woda.at",
+      "homepage": "https://www.woda.at"
+    },
+    {
+      "name": "David Mondok",
+      "email": "david@woda.at"
+    }
+  ],
+  "license": "GPL-3.0+",
+  "bugs": {
+    "url": "https://github.com/wwwoda/stylelint-config-woda/issues"
+  },
+  "homepage": "https://github.com/wwwoda/stylelint-config-woda#readme",
+  "dependencies": {
+    "stylelint": "^13.3.1",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-order": "^4.0.0",
+    "stylelint-scss": "^3.16.1"
+  }
+}
