@@ -28,7 +28,7 @@
       "email": "david@woda.at"
     }
   ],
-  "license": "GPL-3.0+",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/wwwoda/stylelint-config-woda/issues"
   },
