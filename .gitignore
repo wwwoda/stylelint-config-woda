@@ -14,4 +14,4 @@ npm-debug.log
 *.sw[op]
 *.un~
 
-package-lock.json
+yarn.lock

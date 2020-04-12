@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-woda",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Woda's stylelint config",
   "main": "stylelint-config-woda.js",
   "repository": {
@@ -33,8 +33,12 @@
     "url": "https://github.com/wwwoda/stylelint-config-woda/issues"
   },
   "homepage": "https://github.com/wwwoda/stylelint-config-woda#readme",
-  "dependencies": {
-    "stylelint": "^13.3.1",
+  "devDependencies": {
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-order": "^4.0.0",
+    "stylelint-scss": "^3.16.1"
+  },
+  "peerDependencies": {
     "stylelint-config-standard": "^20.0.0",
     "stylelint-order": "^4.0.0",
     "stylelint-scss": "^3.16.1"
