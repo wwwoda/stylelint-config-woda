@@ -3,16 +3,6 @@
 // lowercase-single-dashed-names-only-0
 const namingPattern = /^[a-z]+([a-z0-9-]+[a-z0-9]+)?$/;
 
-/**
- * Copyright 2017-present Palantir Technologies
- * @license Apache-2.0
- */
-
-"use strict";
-
-// lowercase-single-dashed-names-only-0
-const namingPattern = /^-?[a-z0-9]+(-[a-z0-9]+)*$/;
-
 module.exports = {
   extends: [
     "stylelint-config-standard",
