@@ -34,6 +34,7 @@ module.exports = {
         "ignoreAtRules": ["if", "else"]
       }
     ],
+    "declaration-empty-line-before": null,
     "declaration-property-value-blacklist": {
       border: ["none"],
       "border-top": ["none"],

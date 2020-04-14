@@ -37,18 +37,13 @@
   },
   "homepage": "https://github.com/wwwoda/stylelint-config-woda#readme",
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.27.0",
-    "@typescript-eslint/parser": "^2.27.0",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^6.8.0",
-    "eslint-config-airbnb-typescript": "^7.2.1",
-    "eslint-plugin-html": "^6.0.1",
-    "eslint-plugin-import": "^2.20.2",
+    "stylelint": "^13.3.2",
     "stylelint-config-standard": "^20.0.0",
     "stylelint-order": "^4.0.0",
     "stylelint-scss": "^3.16.1"
   },
   "peerDependencies": {
+    "stylelint": "^13.3.2",
     "stylelint-config-standard": "^20.0.0",
     "stylelint-order": "^4.0.0",
     "stylelint-scss": "^3.16.1"

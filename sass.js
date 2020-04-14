@@ -1,7 +1,7 @@
 // Additional configuration for Sass code.
 // Be sure to install `stylelint-scss` for the `scss/*` rules (it's only optional if you're not using Sass).
 
-const namingPattern = require("./stylelint.config.js").namingPattern;
+const namingPattern = require("./stylelint-config-woda.js").namingPattern;
 
 module.exports = {
   "plugins": [
