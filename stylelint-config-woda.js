@@ -1,3 +1,8 @@
+// Copyright (c) 2020 David Mondok <david@woda.at>
+//
+// This software is released under the MIT License.
+// https://opensource.org/licenses/MIT
+
 "use strict";
 
 // lowercase-single-dashed-names-only-0
@@ -56,13 +61,13 @@ module.exports = {
     "unit-blacklist": ["pt"],
     // order is defined in a separate file for legibility
     "order/order": [
-      require("./order.js"),
+      require("./config/order.js"),
       { unspecified: "ignore" }
     ],
 
     // property order is defined in a separate file for legibility
     "order/properties-order": [
-      require("./property-order.js"),
+      require("./config/property-order.js"),
       { unspecified: "bottomAlphabetical" }
     ],
   },
