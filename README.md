@@ -41,8 +41,16 @@ To see the SASS specific rules that this config uses, please check out the [scss
 
 ## Installation
 
+If using `yarn`
+
 ```bash
-npm install stylelint-config-woda --save-dev
+yarn add --dev stylelint-config-woda stylelint
+```
+
+or with `npm`
+
+```bash
+npm i --save-dev stylelint-config-woda stylelint
 ```
 
 ## Usage

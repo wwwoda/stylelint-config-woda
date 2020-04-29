@@ -36,16 +36,12 @@
     "url": "https://github.com/wwwoda/stylelint-config-woda/issues"
   },
   "homepage": "https://github.com/wwwoda/stylelint-config-woda#readme",
-  "devDependencies": {
-    "stylelint": "^13.3.2",
+  "dependencies": {
     "stylelint-config-standard": "^20.0.0",
     "stylelint-order": "^4.0.0",
     "stylelint-scss": "^3.16.1"
   },
   "peerDependencies": {
-    "stylelint": "^13.3.2",
-    "stylelint-config-standard": "^20.0.0",
-    "stylelint-order": "^4.0.0",
-    "stylelint-scss": "^3.16.1"
+    "stylelint": "^13.3.2"
   }
 }
