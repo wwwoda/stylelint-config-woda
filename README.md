@@ -108,7 +108,7 @@ Install the [stylelint-plus](https://marketplace.visualstudio.com/items?itemName
 
 To turn on autofixing on file save add `"stylelint.autoFixOnSave": true` to the settings.
 
-## PhpStorm and WebStorm
+## PhpStorm and WebStorm integration
 
 To enable autofixing on file save add a new watcher in Tools > Watchers with following settings
 
