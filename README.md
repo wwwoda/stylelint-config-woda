@@ -5,10 +5,10 @@
 Extends [`stylelint-config-standard`](https://github.com/stylelint/stylelint-config-standard) which in turn is an extension of [`stylelint-config-recommended`](https://github.com/stylelint/stylelint-config-recommended).
 
 `stylelint-config-standard` turns on additional rules to enforce the common stylistic conventions found within a handful of CSS styleguides, including:
-* [The Idiomatic CSS Principles](https://github.com/necolas/idiomatic-css),
-* [Google's CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#CSS_Formatting_Rules)
-* [Airbnb's Styleguide](https://github.com/airbnb/css#css)
-* [@mdo's Code Guide](http://codeguide.co/#css).
+- [The Idiomatic CSS Principles](https://github.com/necolas/idiomatic-css),
+- [Google's CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#CSS_Formatting_Rules)
+- [Airbnb's Styleguide](https://github.com/airbnb/css#css)
+- [@mdo's Code Guide](http://codeguide.co/#css).
 
 Additionally we set some custom rules that you can check out in the [main config file](./stylint-config-woda.js).
 
@@ -102,14 +102,36 @@ For example, to change the `at-rule-no-unknown` rule to use its `ignoreAtRules` 
 }
 ```
 
+## Visual Studio Code Integration
+
+Install the [stylelint-plus](https://marketplace.visualstudio.com/items?itemName=hex-ci.stylelint-plus) plugin for Visual Studio Code.
+
+To turn on autofixing on file save add `"stylelint.autoFixOnSave": true` to the settings.
+
+## PhpStorm and WebStorm
+
+To enable autofixing on file save add a new watcher in Tools > Watchers with following settings
+
+- Files to Watch
+  - File type: `SCSS Style Sheet`
+  - Scope: `Project Files`
+- Tool to Run on Changes
+  - Program: `/usr/local/bin/stylelint`
+  - Arguments: `--fix $FilePath$`
+  - Output paths to refresh: `$FilePath$`
+  - Working directory: `$ProjectFileDir$`
+  - Environment variables: `COMPILE_PARTIAL=true`
+- Advanced Options
+  - Disable all but `Trigger the watcher regardless of syntax errors`
+
 ## Docs
 
-* [stylelint](https://stylelint.io/)
-* [stylelint-order](https://github.com/hudochenkov/stylelint-order)
-  * [`order`](./rules/order/README.md): Specify the order of content within declaration blocks.
-  * [`properties-order`](./rules/properties-order/README.md): Specify the order of properties within declaration blocks.
-  * [`properties-alphabetical-order`](./rules/properties-alphabetical-order/README.md): Specify the alphabetical order of properties within declaration blocks.
-* [stylelint-scss](https://github.com/kristerkari/stylelint-scss)
+- [stylelint](https://stylelint.io/)
+- [stylelint-order](https://github.com/hudochenkov/stylelint-order)
+  - [`order`](./rules/order/README.md): Specify the order of content within declaration blocks.
+  - [`properties-order`](./rules/properties-order/README.md): Specify the order of properties within declaration blocks.
+  - [`properties-alphabetical-order`](./rules/properties-alphabetical-order/README.md): Specify the alphabetical order of properties within declaration blocks.
+- [stylelint-scss](https://github.com/kristerkari/stylelint-scss)
 
 ## [Changelog](CHANGELOG.md)
 
