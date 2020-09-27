@@ -1,10 +1,9 @@
-// Copyright (c) 2020 David Mondok <david@woda.at>
+// Copyright (c) 2020 Woda <hello@woda.at>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
 
 // Additional configuration for Sass code.
-// Be sure to install `stylelint-scss` for the `scss/*` rules (it's only optional if you're not using Sass).
 
 const namingPattern = require("./stylelint-config-woda.js").namingPattern;
 

@@ -10,6 +10,10 @@ module.exports = [
     "name": "include",
     "hasBlock": false
   },
+  {
+    "type": "at-rule",
+    "name": "apply"
+  },
   "declarations",
   {
     "type": "at-rule",
@@ -25,5 +29,9 @@ module.exports = [
     "type": "at-rule",
     "name": "include",
     "parameter": "breakpoint"
+  },
+  {
+    "type": "at-rule",
+    "name": "screen"
   }
 ]

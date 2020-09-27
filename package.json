@@ -38,10 +38,10 @@
   "homepage": "https://github.com/wwwoda/stylelint-config-woda#readme",
   "dependencies": {
     "stylelint-config-standard": "^20.0.0",
-    "stylelint-order": "^4.0.0",
-    "stylelint-scss": "^3.16.1"
+    "stylelint-order": "^4.1.0",
+    "stylelint-scss": "^3.18.0"
   },
   "peerDependencies": {
-    "stylelint": "^13.3.2"
+    "stylelint": "^13.7.2"
   }
 }
