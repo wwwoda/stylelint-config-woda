@@ -5,18 +5,12 @@
 
 "use strict";
 
-// lowercase-single-dashed-names-only-0
-const namingPattern = /^(([a-z]([a-z0-9-]+))|[A-Z]([A-Za-z0-9]+))?(__([a-z0-9]+-?)+)?(--([a-z0-9]+-?)+){0,2}$/;
-
 module.exports = {
   extends: [
     "stylelint-config-standard",
     "./sass.js",
     "./tailwind.js"
   ],
-
-  // export namingPattern so it can be used in your own rules
-  namingPattern,
 
   plugins: [
     "stylelint-order",
@@ -50,8 +44,6 @@ module.exports = {
     },
     "number-max-precision": 8,
     "selector-attribute-quotes": "always",
-    "selector-class-pattern": namingPattern,
-    "selector-id-pattern": /^[a-z]([a-z0-9-]+)/,
     "selector-pseudo-class-no-unknown": [
       true,
       {
