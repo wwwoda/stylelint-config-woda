@@ -35,7 +35,7 @@ module.exports = {
       }
     ],
     "declaration-empty-line-before": null,
-    "declaration-property-value-blacklist": {
+    "declaration-property-value-disallowed-list": {
       border: ["none"],
       "border-top": ["none"],
       "border-right": ["none"],
@@ -51,7 +51,7 @@ module.exports = {
         "ignorePseudoClasses": ["global"]
       }
     ],
-    "unit-blacklist": ["pt"],
+    "unit-disallowed-list": ["pt"],
     // order is defined in a separate file for legibility
     "order/order": [
       require("./config/order.js"),
