@@ -8,8 +8,6 @@
 module.exports = {
   extends: [
     "stylelint-config-standard",
-    "./sass.js",
-    "./tailwind.js"
   ],
 
   plugins: [
@@ -44,6 +42,7 @@ module.exports = {
     },
     "number-max-precision": 8,
     "selector-attribute-quotes": "always",
+    "selector-class-pattern": null,
     "selector-pseudo-class-no-unknown": [
       true,
       {
