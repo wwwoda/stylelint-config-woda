@@ -10,14 +10,23 @@ module.exports = {
     "stylelint-scss",
   ],
   "rules": {
+    "at-rule-no-unknown": null,
     "function-no-unknown": null,
+    "no-invalid-position-at-import-rule": [
+      true,
+      {
+        ignoreAtRules: [
+          "forward",
+          "use",
+        ],
+      },
+    ],
     "scss/function-no-unknown": true,
     "scss/at-extend-no-missing-placeholder": null,
     "scss/at-function-pattern": null,
     "scss/at-import-no-partial-leading-underscore": true,
     "scss/at-import-partial-extension-blacklist": ["scss"],
     "scss/at-mixin-argumentless-call-parentheses": "always",
-    "at-rule-no-unknown": null,
     "scss/at-rule-no-unknown": true,
     "scss/dollar-variable-colon-space-after": "always",
     "scss/dollar-variable-colon-space-before": "never",

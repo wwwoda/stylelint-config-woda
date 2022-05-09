@@ -26,7 +26,11 @@ module.exports = {
     "no-invalid-position-at-import-rule": [
       true,
       {
-        ignoreAtRules: ["tailwind"],
+        ignoreAtRules: [
+          "forward",
+          "tailwind",
+          "use",
+        ],
       },
     ],
   },
