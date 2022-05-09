@@ -43,6 +43,7 @@ module.exports = {
     "number-max-precision": 8,
     "selector-attribute-quotes": "always",
     "selector-class-pattern": null,
+    "selector-id-pattern": null,
     "selector-pseudo-class-no-unknown": [
       true,
       {
