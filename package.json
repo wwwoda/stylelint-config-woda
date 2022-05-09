@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-woda",
-  "version": "1.0.0-2",
+  "version": "1.0.0-3",
   "description": "Woda's stylelint config",
   "main": "stylelint-config-woda.js",
   "scripts": {
