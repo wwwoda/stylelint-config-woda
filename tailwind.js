@@ -6,6 +6,10 @@
 // Additional configuration for Tailwind.
 
 module.exports = {
+  extends: [
+    "stylelint-config-woda/sass",
+  ],
+
   "rules": {
     "scss/at-rule-no-unknown": [
       true,
