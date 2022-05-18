@@ -5,12 +5,19 @@
 
 // Additional configuration for Tailwind.
 
+const sassConfig = require("./sass.js");
+
 module.exports = {
   extends: [
-    "stylelint-config-woda/sass",
+    ...sassConfig.extends,
+  ],
+
+  plugins: [
+    ...sassConfig.plugins,
   ],
 
   "rules": {
+    ...sassConfig.rules,
     "scss/at-rule-no-unknown": [
       true,
       {

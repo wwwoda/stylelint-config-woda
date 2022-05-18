@@ -5,11 +5,19 @@
 
 // Additional configuration for Sass code.
 
+const baseConfig = require("./stylelint-config-woda.js");
+
 module.exports = {
   extends: [
-    "stylelint-config-woda",
     "stylelint-config-standard-scss",
   ],
 
-  rules: {},
+  plugins: [
+    ...baseConfig.plugins,
+  ],
+
+  rules: {
+    ...baseConfig.rules,
+    "function-no-unknown": null,
+  },
 }
