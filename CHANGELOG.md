@@ -26,3 +26,7 @@
 ## 0.4.0
 
 - Remove anything related to naming patterns
+
+## 1.0.0
+
+- Update to stylelint 15.0.0

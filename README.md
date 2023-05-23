@@ -104,9 +104,7 @@ For example, to change the `at-rule-no-unknown` rule to use its `ignoreAtRules` 
 
 ## Visual Studio Code Integration
 
-Install the [stylelint-plus](https://marketplace.visualstudio.com/items?itemName=hex-ci.stylelint-plus) plugin for Visual Studio Code.
-
-To turn on autofixing on file save add `"stylelint.autoFixOnSave": true` to the settings.
+Install the [Stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint) plugin for Visual Studio Code.
 
 ## PhpStorm and WebStorm integration
 
