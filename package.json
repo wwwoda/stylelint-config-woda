@@ -37,15 +37,15 @@
   },
   "homepage": "https://github.com/wwwoda/stylelint-config-woda#readme",
   "dependencies": {
-    "stylelint-config-standard": "^25",
-    "stylelint-config-standard-scss": "^3.0.0",
-    "stylelint-order": "^5.0.0",
-    "stylelint-scss": "^4.2.0"
+    "stylelint-config-standard": "^33",
+    "stylelint-config-standard-scss": "^9.0.0",
+    "stylelint-order": "^6.0.3",
+    "stylelint-scss": "^5.0.0"
   },
   "devDependencies": {
-    "stylelint": "^14.8.0"
+    "stylelint": "^15.6.2"
   },
   "peerDependencies": {
-    "stylelint": "^14.1.0"
+    "stylelint": "^15.6.2"
   }
 }
