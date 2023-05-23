@@ -26,12 +26,6 @@ module.exports = {
     ],
     "at-rule-no-unknown": null,
     "at-rule-no-vendor-prefix": true,
-    "block-closing-brace-newline-after": [
-      "always",
-      {
-        "ignoreAtRules": ["if", "else"]
-      }
-    ],
     "declaration-empty-line-before": null,
     "declaration-property-value-disallowed-list": {
       border: ["none"],
